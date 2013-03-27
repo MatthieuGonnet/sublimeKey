@@ -1,0 +1,8 @@
+[
+{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+{ "draw_white_space": "all" },
+	{ "keys": ["ctrl+o"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["alt+o"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["alt+/"], "command": "auto_complete" },
+	{ "keys": ["f12"], "command": "reindent", "args": {"single_line": false} }
+]
